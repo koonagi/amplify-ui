@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import {
   AuthenticatorProvider as Provider,
@@ -10,9 +11,12 @@ import {
   UseAuthenticator,
 } from '@aws-amplify/ui-react-core';
 
+import { configureComponent } from '@aws-amplify/ui';
+
 import { DefaultContainer, InnerContainer } from './common';
 import { TypedField, getRouteTypedFields } from './hooks';
 import { AuthenticatorProps } from './types';
+import { VERSION } from '../version';
 
 import {
   ConfirmResetPassword,
@@ -52,8 +56,18 @@ const routePropSelector = ({
 function Authenticator({
   children,
   components: overrides,
+  Container = DefaultContainer,
+  Footer,
+  Header,
   ...options
 }: AuthenticatorProps): JSX.Element | null {
+  React.useEffect(() => {
+    configureComponent({
+      packageName: '@aws-amplify/ui-react-native',
+      version: VERSION,
+    });
+  }, []);
+
   useAuthenticatorInitMachine(options);
 
   const { fields, route } = useAuthenticator(routePropSelector);
@@ -73,15 +87,20 @@ function Authenticator({
   }
 
   return (
-    <DefaultContainer>
-      <InnerContainer>
-        <Component {...props} fields={typedFields} />
-      </InnerContainer>
-    </DefaultContainer>
+    <SafeAreaProvider>
+      <Container>
+        {Header ? <Header /> : null}
+        <InnerContainer>
+          <Component {...props} fields={typedFields} />
+        </InnerContainer>
+        {Footer ? <Footer /> : null}
+      </Container>
+    </SafeAreaProvider>
   );
 }
 
 // assign slot components
+Authenticator.Container = DefaultContainer;
 Authenticator.Provider = Provider;
 Authenticator.ConfirmResetPassword = ConfirmResetPassword;
 Authenticator.ConfirmSignIn = ConfirmSignIn;

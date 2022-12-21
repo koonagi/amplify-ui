@@ -14,13 +14,22 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     Account recovery requires verified contact information
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="button"
     accessible={true}
@@ -39,19 +48,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -65,7 +71,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -73,56 +79,62 @@ Array [
     </Text>
   </View>,
   <View
-    accessibilityRole="button"
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderRadius": 4,
-          "justifyContent": "center",
-          "paddingHorizontal": 16,
-          "paddingVertical": 12,
-        },
-        Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
-        },
-      ]
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      }
     }
   >
-    <Text
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
-            "color": "hsl(210, 50%, 10%)",
-            "fontSize": 16,
-            "fontWeight": "700",
-            "textAlign": "center",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderRadius": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 16,
+            "paddingVertical": 12,
           },
           undefined,
+          Object {
+            "marginVertical": 8,
+            "minWidth": "50%",
+          },
         ]
       }
     >
-      Skip
-    </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "hsl(190, 95%, 30%)",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
   </View>,
 ]
 `;
@@ -141,13 +153,22 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     Account recovery requires verified contact information
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="button"
     accessible={true}
@@ -166,19 +187,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -192,7 +210,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -200,56 +218,62 @@ Array [
     </Text>
   </View>,
   <View
-    accessibilityRole="button"
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderRadius": 4,
-          "justifyContent": "center",
-          "paddingHorizontal": 16,
-          "paddingVertical": 12,
-        },
-        Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
-        },
-      ]
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      }
     }
   >
-    <Text
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
-            "color": "hsl(210, 50%, 10%)",
-            "fontSize": 16,
-            "fontWeight": "700",
-            "textAlign": "center",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderRadius": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 16,
+            "paddingVertical": 12,
           },
           undefined,
+          Object {
+            "marginVertical": 8,
+            "minWidth": "50%",
+          },
         ]
       }
     >
-      Skip
-    </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "hsl(190, 95%, 30%)",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
   </View>,
 ]
 `;
@@ -268,13 +292,22 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     Account recovery requires verified contact information
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="alert"
     style={
@@ -284,9 +317,11 @@ Array [
           "backgroundColor": "hsl(0, 75%, 85%)",
           "flexDirection": "row",
           "paddingHorizontal": 8,
-          "paddingVertical": 32,
+          "paddingVertical": 12,
         },
-        undefined,
+        Object {
+          "marginHorizontal": 12,
+        },
       ]
     }
   >
@@ -305,9 +340,13 @@ Array [
             "tintColor": undefined,
             "width": 20,
           },
-          Object {
-            "margin": 8,
-          },
+          Array [
+            Object {
+              "margin": 8,
+              "tintColor": "hsl(0, 100%, 20%)",
+            },
+            Object {},
+          ],
         ]
       }
     />
@@ -317,9 +356,10 @@ Array [
           Object {
             "color": "hsl(0, 100%, 20%)",
             "flex": 1,
+            "fontSize": 16,
             "paddingHorizontal": 8,
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -344,19 +384,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -370,7 +407,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -378,56 +415,62 @@ Array [
     </Text>
   </View>,
   <View
-    accessibilityRole="button"
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "transparent",
-          "borderRadius": 4,
-          "justifyContent": "center",
-          "paddingHorizontal": 16,
-          "paddingVertical": 12,
-        },
-        Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
-        },
-      ]
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      }
     }
   >
-    <Text
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
-            "color": "hsl(210, 50%, 10%)",
-            "fontSize": 16,
-            "fontWeight": "700",
-            "textAlign": "center",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderRadius": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 16,
+            "paddingVertical": 12,
           },
           undefined,
+          Object {
+            "marginVertical": 8,
+            "minWidth": "50%",
+          },
         ]
       }
     >
-      Skip
-    </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "hsl(190, 95%, 30%)",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
   </View>,
 ]
 `;

@@ -41,6 +41,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -49,7 +50,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -85,8 +86,9 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -119,6 +121,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -127,7 +130,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -146,8 +149,9 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -180,6 +184,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -188,7 +193,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -207,8 +212,9 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -242,6 +248,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -250,7 +257,7 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -269,8 +276,9 @@ exports[`RadioGroup renders as expected when direction is horizontal 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -327,6 +335,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -335,7 +344,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -371,8 +380,9 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -405,6 +415,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -413,7 +424,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -432,8 +443,9 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -466,6 +478,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -474,7 +487,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -493,8 +506,9 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -528,6 +542,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -536,7 +551,7 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -555,8 +570,9 @@ exports[`RadioGroup renders as expected when direction is vertical 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -613,6 +629,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -621,7 +638,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -657,8 +674,9 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -691,6 +709,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -699,7 +718,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -718,8 +737,9 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -752,6 +772,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -760,7 +781,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -779,8 +800,9 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -814,6 +836,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -822,7 +845,7 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -841,8 +864,9 @@ exports[`RadioGroup renders as expected when size is large 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -899,6 +923,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -907,7 +932,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -943,8 +968,9 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -977,6 +1003,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -985,7 +1012,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1004,8 +1031,9 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1038,6 +1066,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1046,7 +1075,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1065,8 +1094,9 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1100,6 +1130,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1108,7 +1139,7 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1127,8 +1158,9 @@ exports[`RadioGroup renders as expected when size is medium 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1185,6 +1217,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1193,7 +1226,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1229,8 +1262,9 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1263,6 +1297,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1271,7 +1306,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1290,8 +1325,9 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1324,6 +1360,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1332,7 +1369,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1351,8 +1388,9 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1386,6 +1424,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1394,7 +1433,7 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1413,8 +1452,9 @@ exports[`RadioGroup renders as expected when size is small 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1471,6 +1511,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1479,7 +1520,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1515,8 +1556,9 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1549,6 +1591,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1557,7 +1600,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1576,8 +1619,9 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1610,6 +1654,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
             "flexDirection": "row",
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1618,7 +1663,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1637,8 +1682,9 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",
@@ -1672,6 +1718,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
             "opacity": 0.6,
           },
           undefined,
+          undefined,
         ]
       }
     >
@@ -1680,7 +1727,7 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
           Array [
             Object {
               "alignItems": "center",
-              "borderColor": "hsl(210, 8%, 55%)",
+              "borderColor": "hsl(210, 10%, 58%)",
               "borderRadius": 999,
               "borderWidth": 2,
               "justifyContent": "center",
@@ -1699,8 +1746,9 @@ exports[`RadioGroup renders default RadioGroup as expected 1`] = `
         style={
           Array [
             Object {
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "400",
+              "lineHeight": 21,
             },
             Object {
               "color": "hsl(210, 50%, 10%)",

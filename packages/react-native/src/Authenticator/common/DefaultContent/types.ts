@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleProp, TextStyle, ViewStyle } from 'react-native';
+import { ImageStyle, StyleProp, TextStyle, ViewStyle } from 'react-native';
 
 import {
   AuthenticatorComponentDefaultProps,
-  AuthenticatorRouteComponentName,
   AuthenticatorHeaderComponent,
   AuthenticatorFooterComponent,
+  AuthenticatorMachineContext,
+  AuthenticatorRouteComponentName,
 } from '@aws-amplify/ui-react-core';
 
 import { ButtonProps } from '../../../primitives';
@@ -17,20 +18,24 @@ import {
 import { TextFieldOptionsType, RadioFieldOptions } from '../../hooks';
 
 export interface DefaultContentStyle {
+  body?: TextStyle;
   buttonPrimary?: ViewStyle;
   buttonPrimaryLabel?: TextStyle;
   buttonSecondary?: ViewStyle;
-  buttonSecondaryContainer?: ViewStyle;
   buttonSecondaryLabel?: TextStyle;
   errorMessage?: ViewStyle;
+  errorMessageIcon?: ImageStyle;
   errorMessageLabel?: TextStyle;
-  fieldContainerStyle?: ViewStyle;
-  fieldErrorStyle?: TextStyle;
-  fieldLabelStyle?: TextStyle;
+  fieldErrorsContainer?: ViewStyle;
+  fieldContainer?: ViewStyle;
+  fieldError?: TextStyle;
+  fieldLabel?: TextStyle;
   fieldStyle?: TextStyle;
   footer?: TextStyle;
   formFields?: ViewStyle;
   header?: TextStyle;
+  link?: ViewStyle;
+  linksContainer?: ViewStyle;
 }
 
 export type DefaultContentStyleProps = {
@@ -46,7 +51,8 @@ type AuthenticatorButtonProps = Omit<ButtonProps, 'children'> & {
 
 type DefaultButtons = {
   primary: AuthenticatorButtonProps;
-  secondary: AuthenticatorButtonProps | AuthenticatorButtonProps[];
+  secondary?: AuthenticatorButtonProps;
+  links?: AuthenticatorButtonProps[];
 };
 
 export type DefaultContentProps<
@@ -61,8 +67,9 @@ export type DefaultContentProps<
   buttons: DefaultButtons;
   body?: React.ReactNode;
   fields: FieldsType[];
-  headerText?: string;
+  headerText: string;
   Footer: AuthenticatorFooterComponent<{ style?: StyleProp<TextStyle> }>;
   FormFields: DefaultFormFieldsComponent<FieldsType>;
   Header: AuthenticatorHeaderComponent<{ style?: StyleProp<TextStyle> }>;
+  validationErrors?: AuthenticatorMachineContext['validationErrors'];
 };

@@ -14,16 +14,43 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     We Emailed You
   </Text>,
-  <Text>
+  <Text
+    accessibilityRole="text"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 21,
+        },
+        Object {
+          "color": "hsl(210, 50%, 10%)",
+        },
+        Object {
+          "fontSize": 16,
+          "paddingHorizontal": 12,
+        },
+      ]
+    }
+  >
     Your code is on the way. To log in, enter the code we emailed to a***@e***.com. It may take a minute to arrive.
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="button"
     accessible={true}
@@ -42,19 +69,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -68,7 +92,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -94,19 +118,16 @@ Array [
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
+          "borderColor": "hsl(210, 10%, 58%)",
           "borderRadius": 4,
+          "borderWidth": 1,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
         },
       ]
     }
@@ -120,7 +141,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -144,16 +165,43 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     We Emailed You
   </Text>,
-  <Text>
+  <Text
+    accessibilityRole="text"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 21,
+        },
+        Object {
+          "color": "hsl(210, 50%, 10%)",
+        },
+        Object {
+          "fontSize": 16,
+          "paddingHorizontal": 12,
+        },
+      ]
+    }
+  >
     Your code is on the way. To log in, enter the code we emailed to a***@e***.com. It may take a minute to arrive.
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="button"
     accessible={true}
@@ -172,19 +220,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -198,7 +243,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -224,19 +269,16 @@ Array [
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
+          "borderColor": "hsl(210, 10%, 58%)",
           "borderRadius": 4,
+          "borderWidth": 1,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
         },
       ]
     }
@@ -250,7 +292,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -274,16 +316,43 @@ Array [
           "fontWeight": "300",
           "lineHeight": 36,
         },
-        undefined,
+        Object {
+          "marginVertical": 12,
+          "paddingHorizontal": 12,
+        },
       ]
     }
   >
     We Emailed You
   </Text>,
-  <Text>
+  <Text
+    accessibilityRole="text"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 21,
+        },
+        Object {
+          "color": "hsl(210, 50%, 10%)",
+        },
+        Object {
+          "fontSize": 16,
+          "paddingHorizontal": 12,
+        },
+      ]
+    }
+  >
     Your code is on the way. To log in, enter the code we emailed to a***@e***.com. It may take a minute to arrive.
   </Text>,
-  <View />,
+  <View
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  />,
   <View
     accessibilityRole="alert"
     style={
@@ -293,9 +362,11 @@ Array [
           "backgroundColor": "hsl(0, 75%, 85%)",
           "flexDirection": "row",
           "paddingHorizontal": 8,
-          "paddingVertical": 32,
+          "paddingVertical": 12,
         },
-        undefined,
+        Object {
+          "marginHorizontal": 12,
+        },
       ]
     }
   >
@@ -314,9 +385,13 @@ Array [
             "tintColor": undefined,
             "width": 20,
           },
-          Object {
-            "margin": 8,
-          },
+          Array [
+            Object {
+              "margin": 8,
+              "tintColor": "hsl(0, 100%, 20%)",
+            },
+            Object {},
+          ],
         ]
       }
     />
@@ -326,9 +401,10 @@ Array [
           Object {
             "color": "hsl(0, 100%, 20%)",
             "flex": 1,
+            "fontSize": 16,
             "paddingHorizontal": 8,
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -353,19 +429,16 @@ Array [
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "transparent",
+          "backgroundColor": "hsl(190, 95%, 30%)",
           "borderRadius": 4,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "backgroundColor": "hsl(190, 95%, 30%)",
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
+          "marginVertical": 12,
         },
       ]
     }
@@ -379,7 +452,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
@@ -405,19 +478,16 @@ Array [
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
+          "borderColor": "hsl(210, 10%, 58%)",
           "borderRadius": 4,
+          "borderWidth": 1,
           "justifyContent": "center",
           "paddingHorizontal": 16,
           "paddingVertical": 12,
         },
+        undefined,
         Object {
-          "borderColor": "hsl(210, 8%, 55%)",
-          "borderWidth": 1,
-        },
-        null,
-        null,
-        Object {
-          "marginVertical": 8,
+          "marginHorizontal": 16,
         },
       ]
     }
@@ -431,7 +501,7 @@ Array [
             "fontWeight": "700",
             "textAlign": "center",
           },
-          undefined,
+          Object {},
         ]
       }
     >
