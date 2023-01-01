@@ -1,11 +1,19 @@
 import React from 'react';
 import { Button, StyleSheet, View } from 'react-native';
 
-import { Authenticator, useAuthenticator } from '@aws-amplify/ui-react-native';
+import {
+  Authenticator,
+  useAuthenticator,
+  ModuleProvider,
+} from '@aws-amplify/ui-react-native';
+import { initRNClipboardModule } from '@aws-amplify/ui-react-native/dist/contexts/helpers';
+import RNClipboard from '@react-native-clipboard/clipboard';
 import { Amplify } from 'aws-amplify';
 
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
+
+const Clipboard = initRNClipboardModule(RNClipboard);
 
 function SignOutButton() {
   const { signOut } = useAuthenticator();
@@ -14,13 +22,19 @@ function SignOutButton() {
 
 function App() {
   return (
-    <Authenticator.Provider>
-      <Authenticator>
-        <View style={style.container}>
-          <SignOutButton />
-        </View>
-      </Authenticator>
-    </Authenticator.Provider>
+    <ModuleProvider
+      modules={{
+        Clipboard,
+      }}
+    >
+      <Authenticator.Provider>
+        <Authenticator>
+          <View style={style.container}>
+            <SignOutButton />
+          </View>
+        </Authenticator>
+      </Authenticator.Provider>
+    </ModuleProvider>
   );
 }
 

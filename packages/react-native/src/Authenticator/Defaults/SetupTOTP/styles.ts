@@ -1,10 +1,28 @@
-import { StyleSheet, TextStyle } from 'react-native';
+import { ImageStyle, StyleSheet, TextStyle, ViewStyle } from 'react-native';
 
 export interface SetupTOTPStyle {
+  copyIcon: ImageStyle;
+  secretKeyContainer: ViewStyle;
+  secretKeySubcontainer: ViewStyle;
   secretKeyText: TextStyle;
 }
 
 export const styles: SetupTOTPStyle = StyleSheet.create({
   // TODO: replace with tokens
-  secretKeyText: { flexWrap: 'wrap', paddingVertical: 4, marginHorizontal: 8 },
+  copyIcon: {
+    marginLeft: 8,
+  },
+  secretKeyContainer: {
+    marginHorizontal: 12,
+    paddingTop: 4,
+  },
+  secretKeySubcontainer: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    paddingVertical: 4,
+  },
+  secretKeyText: {
+    flexWrap: 'wrap',
+    flex: 1,
+  },
 });

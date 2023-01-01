@@ -73,7 +73,7 @@ describe('SetupTOTP', () => {
     });
   });
 
-  it('calls toSignIn an secondary button press', async () => {
+  it('calls toSignIn on secondary button press', async () => {
     const errorMessage = 'Test error message';
     const { getByText } = render(<SetupTOTP {...props} error={errorMessage} />);
     await waitFor(() => {
@@ -128,4 +128,7 @@ describe('SetupTOTP', () => {
       expect(errorSpy).toHaveBeenCalledTimes(1);
     });
   });
+
+  it.todo('renders as expected with a secret key');
+  it.todo('renders as expected with a secret key and a clipboard module');
 });

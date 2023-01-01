@@ -13,10 +13,11 @@ import {
 
 import { configureComponent } from '@aws-amplify/ui';
 
+import { VERSION } from '../version';
+
 import { DefaultContainer, InnerContainer } from './common';
 import { TypedField, getRouteTypedFields } from './hooks';
 import { AuthenticatorProps } from './types';
-import { VERSION } from '../version';
 
 import {
   ConfirmResetPassword,

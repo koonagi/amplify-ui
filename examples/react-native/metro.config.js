@@ -102,7 +102,11 @@ config.resolver.extraNodeModules = {
   // xstate uses React under the hood
   '@xstate/react': path.resolve(__dirname, 'node_modules/@xstate/react'),
 
-  // depedendencies with native modules
+  // dependencies with native modules
+  '@react-native-clipboard/clipboard': path.resolve(
+    __dirname,
+    'node_modules/@react-native-clipboard/clipboard'
+  ),
   '@react-native-picker/picker': path.resolve(
     __dirname,
     'node_modules/@react-native-picker/picker'
